@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Target ES6 for modern browsers
+    "lib": ["dom", "dom.iterable", "esnext"], // Include necessary libraries for modern JS features
+    "allowJs": true, // Allow JavaScript files in the compilation
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "esModuleInterop": true, // Enable interop for ES modules
+    "allowSyntheticDefaultImports": true, // Allow synthetic default imports
+    "strict": true, // Enable strict type-checking options
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing in file names
+    "module": "esnext", // Use ES modules
+    "moduleResolution": "node", // Use Node-style module resolution
+    "resolveJsonModule": true, // Allow importing JSON files
+    "isolatedModules": true, // Ensure each file is transpiled independently
+    "jsx": "react-jsx" // Use the new JSX Transform (React 17+)
+  },
+  "include": [
+    "src" // Include all files in the 'src' directory
+  ],
+  "exclude": [
+    "node_modules", // Exclude 'node_modules' directory
+    "build" // Exclude 'build' directory (production build)
+  ]
+}
