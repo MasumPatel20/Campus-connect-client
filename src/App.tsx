@@ -1,10 +1,8 @@
-import { Typography } from "@mui/material";
+import AppRoute from "./Routes/AppRoute";
 
 const App = () => {
   return (
-    <div className="App">
-      <Typography variant="h4" align="center">🔥HAIL REVOLUTION🔥</Typography>
-    </div>
+    <AppRoute/>
   );
 };
 
